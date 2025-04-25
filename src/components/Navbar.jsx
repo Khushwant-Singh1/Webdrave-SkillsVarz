@@ -16,7 +16,7 @@ const NavBar = () => {
       <ul className="flex justify-center items-center space-x-16 mx-12 max-sm:mx-2 max-sm:space-x-4">
         {navigations.map(({ name, to }) => (
           <Link
-            className={`text-xs max-sm:text-[10px] text-[#dbdbdb] ${
+            className={`text-xs max-sm:text-[10px] text-[#dbdbdb] hover:text-[#5B68E4] transition-colors ${
               name === "Home" ? "text-primary" : ""
             }`}
             to={to}
