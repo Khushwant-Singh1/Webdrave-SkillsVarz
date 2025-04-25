@@ -37,7 +37,9 @@ const Landingpage = () => {
           </button>
         </div>
       </div>
-      <Video/>
+      <div className='absolute bottom-20 left-60 max-sm:top-30 max-sm:left-40'>
+        <Video />
+      </div>
 
       {/* Scroll text circle */}
       <div className="absolute bottom-8 right-8 z-10 flex flex-col items-center">
@@ -45,6 +47,7 @@ const Landingpage = () => {
           text="SCROLL*DOWN*SCROLL*DOWN*"
           onHover="speedUp"
           spinDuration={20}
+
           className="custom-class "
         />
       </div>
