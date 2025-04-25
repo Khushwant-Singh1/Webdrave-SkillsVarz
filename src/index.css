@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile screens: Full-screen sidebar */
+@media (max-width: 768px) {
+    .sidebar {
+      width: 100% !important; /* Full width on mobile */
+    }
+  }
+  
+  /* Desktop screens: Quarter-screen sidebar */
+  @media (min-width: 768px) {
+    .sidebar {
+      width: 25% !important; /* Quarter width on desktop */
+    }
+  }
+  
