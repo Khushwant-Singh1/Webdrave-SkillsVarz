@@ -11,12 +11,17 @@ import ReadyTo from "./components/ReadyTo";
 import ServicesSection from "./components/Service";
 import TextPressure from "./components/TextPressure";
 
+
 import LocomotiveScroll from "locomotive-scroll";
+import InfiniteTestimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="w-full min-h-screen text-white bg-black">
+      {/* <Loader /> */}
       <NavBar />
       <LandingPage />
       <Marque />
@@ -26,7 +31,9 @@ function App() {
       <StickyStackedCards />
       {/* <Cards /> */}
       {/* <ReadyTo /> */}
-
+      <FAQ />
+      <InfiniteTestimonials />
+      <ContactPage/>
 
 
       <TextPressure
@@ -41,6 +48,7 @@ function App() {
           strokeColor="#ff0000"
           minFontSize={36}
         />
+        
 
     </div>
   );
