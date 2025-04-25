@@ -26,7 +26,8 @@ const StickyStackedCards = () => {
   ];
 
   return (
-    <div className="relative bg-black min-h-[300vh] py-[10vh] px-4 md:px-8">
+    <div data-scroll data-scroll-section
+    data-scroll-speed="0.2"  className="relative bg-black min-h-[300vh] py-[10vh] px-4 md:px-8">
       {/* Header Section */}
       <div className="text-center mb-16">
         <h1 className="text-6xl md:text-8xl font-extrabold text-white tracking-wide">

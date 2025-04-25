@@ -1,9 +1,5 @@
-import About from "./components/About";
-import Cards from "./components/Cards";
-import Eyes from "./components/Eyes";
+
 import StickyStackedCards from "./components/Feature";
-import Featured from "./components/Feature";
-import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import Marque from "./components/Marque";
 import NavBar from "./components/Navbar";
@@ -25,12 +21,8 @@ function App() {
       <NavBar />
       <LandingPage />
       <Marque />
-      {/* <About /> */}
       <ServicesSection />
-      {/* <Eyes /> */}
       <StickyStackedCards />
-      {/* <Cards /> */}
-      {/* <ReadyTo /> */}
       <FAQ />
       <InfiniteTestimonials />
       <ContactPage/>

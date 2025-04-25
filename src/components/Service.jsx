@@ -32,7 +32,9 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="bg-black text-white py-16 w-full">
+    <section data-scroll data-scroll-section
+      data-scroll-speed="-0.1" className="bg-black text-white py-10 w-full">
+
       {/* First Row */}
       <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-between gap-6 px-4 md:px-12 lg:px-20 mb-10 w-full">
         {/* Right side - text block */}
